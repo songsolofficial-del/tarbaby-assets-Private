@@ -23,5 +23,13 @@
     "top": 45,
     "prop": 50
   },
-  "variants": {}
+  "variants": {
+    "body_base-baby": [
+      "sky",
+      "rose",
+      "mint",
+      "butter",
+      "night"
+    ]
+  }
 }
