@@ -1,0 +1,159 @@
+{
+  "version": "auto",
+  "canvas": [
+    64,
+    64
+  ],
+  "anchor": [
+    32,
+    60
+  ],
+  "fps": 10,
+  "cdnBase": "https://cdn.starbaby.app",
+  "items": [
+    {
+      "id": "bg_night",
+      "category": "bg",
+      "layer": 10,
+      "canvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        60
+      ],
+      "fps": 10,
+      "frames": 1,
+      "sheet": "https://cdn.starbaby.app/sheets/bg_night@3x.png",
+      "sheet2x": "https://cdn.starbaby.app/sheets/bg_night@2x.png",
+      "thumb": "https://cdn.starbaby.app/thumbs/bg_night.png"
+    },
+    {
+      "id": "body_base-baby",
+      "category": "body",
+      "layer": 20,
+      "canvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        60
+      ],
+      "fps": 10,
+      "frames": 3,
+      "sheet": "https://cdn.starbaby.app/sheets/body_base-baby@3x.png",
+      "sheet2x": "https://cdn.starbaby.app/sheets/body_base-baby@2x.png",
+      "thumb": "https://cdn.starbaby.app/thumbs/body_base-baby.png"
+    },
+    {
+      "id": "body_base-baby_blue",
+      "category": "body",
+      "layer": 20,
+      "canvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        60
+      ],
+      "fps": 10,
+      "frames": 3,
+      "sheet": "https://cdn.starbaby.app/sheets/body_base-baby_blue@3x.png",
+      "sheet2x": "https://cdn.starbaby.app/sheets/body_base-baby_blue@2x.png",
+      "thumb": "https://cdn.starbaby.app/thumbs/body_base-baby_blue.png"
+    },
+    {
+      "id": "body_base-baby_gold",
+      "category": "body",
+      "layer": 20,
+      "canvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        60
+      ],
+      "fps": 10,
+      "frames": 3,
+      "sheet": "https://cdn.starbaby.app/sheets/body_base-baby_gold@3x.png",
+      "sheet2x": "https://cdn.starbaby.app/sheets/body_base-baby_gold@2x.png",
+      "thumb": "https://cdn.starbaby.app/thumbs/body_base-baby_gold.png"
+    },
+    {
+      "id": "body_base-baby_mint",
+      "category": "body",
+      "layer": 20,
+      "canvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        60
+      ],
+      "fps": 10,
+      "frames": 3,
+      "sheet": "https://cdn.starbaby.app/sheets/body_base-baby_mint@3x.png",
+      "sheet2x": "https://cdn.starbaby.app/sheets/body_base-baby_mint@2x.png",
+      "thumb": "https://cdn.starbaby.app/thumbs/body_base-baby_mint.png"
+    },
+    {
+      "id": "body_base-baby_night",
+      "category": "body",
+      "layer": 20,
+      "canvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        60
+      ],
+      "fps": 10,
+      "frames": 3,
+      "sheet": "https://cdn.starbaby.app/sheets/body_base-baby_night@3x.png",
+      "sheet2x": "https://cdn.starbaby.app/sheets/body_base-baby_night@2x.png",
+      "thumb": "https://cdn.starbaby.app/thumbs/body_base-baby_night.png"
+    },
+    {
+      "id": "body_base-baby_pink",
+      "category": "body",
+      "layer": 20,
+      "canvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        60
+      ],
+      "fps": 10,
+      "frames": 3,
+      "sheet": "https://cdn.starbaby.app/sheets/body_base-baby_pink@3x.png",
+      "sheet2x": "https://cdn.starbaby.app/sheets/body_base-baby_pink@2x.png",
+      "thumb": "https://cdn.starbaby.app/thumbs/body_base-baby_pink.png"
+    },
+    {
+      "id": "hat_star",
+      "category": "hat",
+      "layer": 40,
+      "canvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        60
+      ],
+      "fps": 10,
+      "frames": 1,
+      "sheet": "https://cdn.starbaby.app/sheets/hat_star@3x.png",
+      "sheet2x": "https://cdn.starbaby.app/sheets/hat_star@2x.png",
+      "thumb": "https://cdn.starbaby.app/thumbs/hat_star.png"
+    }
+  ]
+}

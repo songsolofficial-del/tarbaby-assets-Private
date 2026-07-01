@@ -1,0 +1,18 @@
+{
+  "id": "hat_star",
+  "category": "hat",
+  "layer": 40,
+  "canvas": [
+    64,
+    64
+  ],
+  "anchor": [
+    32,
+    60
+  ],
+  "fps": 10,
+  "frames": 1,
+  "sheet": "https://cdn.starbaby.app/sheets/hat_star@3x.png",
+  "sheet2x": "https://cdn.starbaby.app/sheets/hat_star@2x.png",
+  "thumb": "https://cdn.starbaby.app/thumbs/hat_star.png"
+}
