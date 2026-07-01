@@ -22,6 +22,7 @@ SCALES = CFG["scales"]
 LAYERS = CFG["layers"]
 CDN = CFG["cdnBase"].rstrip("/")
 VARIANTS = CFG.get("variants", {})
+ITEM_META = CFG.get("itemMeta", {})   # per-item shop price: {id: {starCost: N}}
 
 for sub in ("sheets", "meta", "thumbs"):
     os.makedirs(os.path.join(DIST, sub), exist_ok=True)
@@ -93,6 +94,14 @@ def export(item_id, category, frames):
         "sheet2x": f"{CDN}/sheets/{item_id}@2x.png",
         "thumb": f"{CDN}/thumbs/{item_id}.png",
     }
+    # shop price (star cost). Structure is always present; values fill in later.
+    price = ITEM_META.get(item_id, {}).get("starCost", None)
+    if item_id == "body_base-baby":
+        price = 0            # default baby is free, not a shop item
+        meta["shop"] = False
+    else:
+        meta["shop"] = True
+    meta["starCost"] = price
     json.dump(meta, open(os.path.join(DIST, "meta", f"{item_id}.json"), "w"),
               ensure_ascii=False, indent=2)
     return meta

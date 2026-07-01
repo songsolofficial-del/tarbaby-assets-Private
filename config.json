@@ -31,5 +31,19 @@
       "butter",
       "night"
     ]
+  },
+  "itemMeta": {
+    "hat_summer": {
+      "starCost": null
+    },
+    "hat_wizard": {
+      "starCost": null
+    },
+    "face_smile": {
+      "starCost": null
+    },
+    "face_sleep": {
+      "starCost": null
+    }
   }
 }
