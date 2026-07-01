@@ -1,0 +1,32 @@
+name: build-assets
+
+on:
+  push:
+    paths: ["src/**", "config.json", "palettes/**", "build.py"]
+  schedule:
+    - cron: "0 15 * * *"   # 00:00 KST daily (UTC+9) - runs while you sleep
+  workflow_dispatch:        # manual "Run" button
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python build.py
+      - name: Upload bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: starbaby-assets
+          path: dist/
+      # Optional: auto-commit dist/ back to the repo so it's always in sync
+      - name: Commit built assets
+        run: |
+          git config user.name "asset-bot"
+          git config user.email "bot@starbaby.app"
+          git add dist/
+          git commit -m "build: assets [skip ci]" || echo "nothing to commit"
+          git push || echo "nothing to push"
