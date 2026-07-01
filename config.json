@@ -1,9 +1,18 @@
 {
   "project": "star-baby",
-  "canvas": [64, 64],
-  "anchor": [32, 60],
+  "canvas": [
+    128,
+    128
+  ],
+  "anchor": [
+    64,
+    120
+  ],
   "fps": 10,
-  "scales": [2, 3],
+  "scales": [
+    2,
+    3
+  ],
   "cdnBase": "https://cdn.starbaby.app",
   "layers": {
     "bg": 10,
@@ -14,7 +23,5 @@
     "top": 45,
     "prop": 50
   },
-  "variants": {
-    "body_base-baby": ["blue", "pink", "mint", "gold", "night"]
-  }
+  "variants": {}
 }
